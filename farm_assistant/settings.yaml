@@ -1,0 +1,51 @@
+ocr:
+  psm: 6
+  oem: 3
+  language: rus+ukr+eng
+  invert: false
+  adaptive: true
+  clahe_clip: 2.0
+  clahe_grid: 8
+parasite_fuzzy_cutoff: 75
+temp_delta_near: 0.5
+temp_delta_warn: 2.0
+genome_water_multiplier: 1.15
+fertilizer_apply_factor: 1.0
+rois:
+  crop:
+    x: 0.02
+    y: 0.05
+    width: 0.2
+    height: 0.08
+  stage:
+    x: 0.25
+    y: 0.05
+    width: 0.2
+    height: 0.08
+  genome:
+    x: 0.02
+    y: 0.15
+    width: 0.25
+    height: 0.05
+  temperature:
+    x: 0.55
+    y: 0.05
+    width: 0.2
+    height: 0.08
+  water:
+    x: 0.55
+    y: 0.15
+    width: 0.2
+    height: 0.08
+  soil:
+    x: 0.55
+    y: 0.25
+    width: 0.2
+    height: 0.08
+  parasites:
+    x: 0.55
+    y: 0.35
+    width: 0.2
+    height: 0.08
+capture_rois:
+  preset_right_panel: [1000, 200, 1600, 800]
